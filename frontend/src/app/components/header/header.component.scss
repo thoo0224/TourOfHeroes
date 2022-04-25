@@ -1,0 +1,37 @@
+@import "../../../styles.scss";
+
+.header {
+    color: white;
+    background-color: $primary;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 65px;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header h1 {
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+}
+
+.links li a {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+}
+
+.links li :hover {
+    background-color: $primaryHover;
+    border-radius: 7.5%;
+}
